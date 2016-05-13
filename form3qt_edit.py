@@ -26,7 +26,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName(_fromUtf8("MainWindow"))
         MainWindow.resize(710, 450)
-        MainWindow.setWindowOpacity(-1.0)
+        MainWindow.setWindowOpacity(1.0)
         MainWindow.setStyleSheet(_fromUtf8("background-color:\'#effec7\';\n"
 "border-radius:20px;\n"
 "\n"
