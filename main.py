@@ -2,7 +2,7 @@ from PyQt4 import QtGui
 import sys
 import form3qt_edit
 
-class Form3(QtGui.QMainWindow, form3qt.Ui_MainWindow):
+class Form3(QtGui.QMainWindow, form3qt_edit.Ui_MainWindow):
 	def __init__(self,parent =None):
 		super(Form3, self).__init__(parent)
 		self.setupUi(self)
